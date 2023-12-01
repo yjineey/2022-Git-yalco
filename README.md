@@ -1,4 +1,4 @@
-# 2022.07 [css]
+# 2022.07 [Git]
 #html #css #git #github #사용법 #yalco
 
 `참조사이트`
