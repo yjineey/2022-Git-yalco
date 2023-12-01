@@ -1,0 +1,25 @@
+* {
+  font-size: 15px;
+  /* capitalize, uppercase, lowercase */
+  text-transform: uppercase;
+  
+}
+
+p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+strong {
+  color:yellowgreen;
+  text-decoration: wavy underline tomato;
+}
+
+em {
+  color:orangered;
+}
+
+test {
+  text-decoration: wavy overline blue 3px;
+  text-transform: capitalize;
+}

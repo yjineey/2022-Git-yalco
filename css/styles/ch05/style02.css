@@ -1,0 +1,10 @@
+span{
+  background-color:blueviolet;
+}
+
+div{
+  background-color:orangered;
+  display: inline-block;
+}
+
+/* inline 은 margin, padding 가로가 적용되지 않으니까, inline-block을 사용하자 */

@@ -1,0 +1,51 @@
+body{
+  margin:0px;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#header{
+  display: flex;
+  /* flex 안에서의 높이, 너비 */
+  flex-basis: 100px;
+  align-items: flex-end;
+  padding: 12px;
+  background-color: aqua;
+  gap: 12px;
+}
+
+#header > * {
+  background-color: yellow;
+  padding: 12px 0;
+  text-align:center;
+}
+
+#header > *:first-child{
+  flex-basis: 100px;
+}
+#header > *:last-child{
+  /* flex-basis: 500px; */
+  flex-grow: 1;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow:1;
+}
+
+#content{
+  background-color: skyblue;
+  padding: 24px;
+}
+
+#footer{
+  flex-basis: 60px;
+  background-color: tomato;
+}
+

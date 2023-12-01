@@ -1,0 +1,9 @@
+html {
+  font-size: 30px;
+}
+div {
+  /* 100%는 1em */
+  /* font-size: 2em; */
+  font-size: 10px;
+  /* font-size: 2%; */
+}
